@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--/**
+ * @author    IdeaNative Dev Team
+ * @copyright Copyright (c) IdeaNative.io, Inc. (https://ideanative.com/)
+ * @package   Notice
+ */-->
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:notice:Magento_Widget:etc/widget.xsd">
+    <widget class="IdeaNative\Notice\Block\Widget\Notice" id="ideanative_notice">
+        <label>Notice</label>
+        <description>Posts</description>
+        <parameters>
+            <parameter name="title" sort_order="10" visible="true" xsi:type="text">
+                <label>Title</label>
+            </parameter>
+            <parameter name="content" sort_order="10" visible="true" xsi:type="text">
+                <label>Content</label>
+            </parameter>
+
+        </parameters>
+    </widget>
+</widgets>

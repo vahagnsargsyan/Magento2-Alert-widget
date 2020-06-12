@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--/**
+ * @author    IdeaNative Dev Team
+ * @copyright Copyright (c) IdeaNative.io, Inc. (https://ideanative.com/)
+ * @package   Notice
+ */-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <link src="IdeaNative_Notice::js/script.js"/>
+        <css src="IdeaNative_Notice::css/notice.css"/>
+    </head>
+</page>

@@ -1,0 +1,20 @@
+<?php
+/**
+ * @author    IdeaNative Dev Team
+ * @copyright Copyright (c) IdeaNative.io, Inc. (https://ideanative.com/)
+ * @package   Notice
+ */
+?>
+<div class="notice-wrapper">
+    <?php if($block->getData('title')): ?>
+        <h4 class='posts'><?php echo $block->getData('title'); ?></h4>
+    <?php endif; ?>
+    <?php if($block->getData('content')): ?>
+        <p><?php echo $block->getData('content'); ?></p>
+    <?php endif; ?>
+      <div class="close-notice-wrapper">
+        <button id="close-notice">
+            CLOSE
+        </button>
+    </div>
+</div>

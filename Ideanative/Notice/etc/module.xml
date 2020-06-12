@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!--/**
+ * @author    IdeaNative Dev Team
+ * @copyright Copyright (c) IdeaNative.io, Inc. (https://ideanative.com/)
+ * @package   Notice
+ */-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="IdeaNative_Notice" setup_version="1.0.0"/>
+</config>
